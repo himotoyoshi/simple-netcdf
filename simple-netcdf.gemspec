@@ -18,8 +18,8 @@ Gem::Specification::new do |s|
   s.email       = ""
   s.homepage    = "https://github.com/himotoyoshi/simple-netcdf"
   s.files       = files
-  s.extensions  = [ "ext/extconf.rb" ]
   s.required_ruby_version = ">= 2.1.0"
-  s.add_runtime_dependency 'carray', '~> 1.0', '>= 1.0.0'
+  s.add_runtime_dependency 'carray', '~> 1.3', '>= 1.3.0'
+  s.add_runtime_dependency 'netcdflib', '~> 1.0', '>= 1.0.0'
 end
 
